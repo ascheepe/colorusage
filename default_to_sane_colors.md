@@ -22,6 +22,14 @@ Unix terminal emulators are widely used for coding and other tasks. However, the
 
 For users with visual impairments or color blindness, adjusting terminal settings to achieve readable text can be particularly challenging. The process may require navigating complex settings or using command-line instructions that are not accessible to everyone. This makes the default color settings even more critical.
 
+## The Growing Use of Colors in CLI Applications
+
+More and more command-line interface (CLI) applications are using colors to highlight important information, differentiate between types of output, and enhance usability. While this trend can improve the user experience for many, it also poses challenges, particularly when combined with problematic default terminal settings.
+
+### The Case for Default Monochrome Output
+
+Given the difficulties in choosing universally readable color schemes and the added complexity for users with visual impairments, it may be better for CLI applications to default to monochrome (colorless) output. This would ensure that all users can read the output without issues related to color contrast or accessibility. Users who prefer color-enhanced output could then enable it through configuration options.
+
 ## Proposed Solution: Accessible Default Settings
 
 To address these issues, we propose that terminal emulators adopt two default settings to enhance accessibility and readability:
